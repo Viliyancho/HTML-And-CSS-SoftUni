@@ -1,0 +1,20 @@
+/*Change the body, ul and li display property to flex
+• Set the ul property justify-content to be equal to space-between*/
+
+body, ul, li{
+    display:flex;
+}
+
+ul{
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+li{
+    border: 2px solid black;
+    box-shadow:  0 0 20px;
+  padding: 20px;
+  margin-bottom: 30px;
+  align-items: center;
+}

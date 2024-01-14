@@ -1,0 +1,285 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    }
+    
+    *, *:before, *:after{
+    box-sizing:inherit;
+    }
+    
+    html{
+    box-sizing:border-box;
+    }
+    html{
+        font: 12px/1.5 Inter,sans-serif;
+    }
+
+    .site-header{
+        background-color: rgb(217, 217, 217);
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        height: 4em;
+    }
+    
+    .site-header nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: start;
+    }
+    
+    .site-header nav ul li {
+        display: inline-block;
+        padding: 1em;
+    }
+    
+    .site-header nav ul li a {
+        color: black;
+        text-decoration: none;
+        padding: 2em;
+    }
+
+    .site-header .buy{
+        padding: 1.25em 1em;
+    }
+
+    .site-header .buy a{
+        background-color: white;
+        padding: 0.6em;
+        border: 1px solid black;
+        border-radius: 3px;
+        text-decoration: none;
+        color: black;
+        margin: 1em 2em;
+    }
+
+    .first-section{
+        height: 52.5em;
+        background: url(images/background.jpg);
+        background-size: 100% auto;
+        background-position: center -20em; 
+        background-repeat: no-repeat;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .first-section h1{
+        font-size: 4em;
+        width: 12em;
+        padding-bottom: 1.5em;
+    }
+
+    .first-section p{
+        font: 14px;
+        color: white;
+        font-weight: bold;
+        width: 32em;
+        padding-bottom: 4em;
+    }
+
+    .first-section a{
+        margin-right: auto;
+        background-color:black;
+        padding: 1em 2.25em;
+        border: 1px solid black;
+        border-radius: 6px;
+        color: white;
+        text-decoration: none;
+    }
+
+    .content{
+        padding-left: 240px;
+        padding-top: 100px;
+    }
+
+    .second-section .container {
+        display: flex;
+        flex-direction: row;
+        gap: 1em;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 2.5em;
+    }
+
+    .second-section h1{
+        color: rgb(255, 124, 76);
+        font-size: 3em;
+        padding-bottom: 35px;
+    }
+
+    .second-section h3{
+        font-weight: 500;
+        padding-bottom: 5px;
+    }
+
+    .second-section .container div{
+        margin: 1em 0;
+        padding: 1em 0.5em;
+        height: 12em;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        width: 20%;
+    }
+
+    .second-section div p{
+        width: 25em;
+    }
+
+    .third-section .container2{
+        padding: 3em 4em;
+        display: flex;
+        flex-direction: column;
+        gap: 1em;
+    }
+    .third-section .container2 div img{
+        width: 30em;
+    height: auto;
+    }
+
+    .third-section .container2 div{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .third-section .container2 div .text{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .third-section .container2 div .text h3{
+        color: rgb(89, 89, 89);
+        padding-bottom: 2em;
+    }
+
+    .third-section{
+        background-color: rgb(217, 217, 217);
+    }
+
+    .third-section .text p{
+        color: rgba(89, 89, 89,1);
+        font-weight: 500;
+    }
+
+    .third-section .text a{
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+        padding-bottom: 3em;
+    }
+
+    .third-section .text{
+        padding: 1.5em;
+    }
+
+    .third-section .container2 div .text h1{
+        padding-bottom: 1em;
+    }
+
+    .fourth-section{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        height: 36em;
+        text-align: center;
+        justify-content: space-around;
+    }
+
+    .fourth-section div{
+        width: 30%;
+    }
+
+    .fourth-section .first h1{
+        font-size: 2em;
+        padding-bottom:2em;
+    }
+
+    .fourth-section .orange .money, .fourth-section .black .money{
+        font-size: 4em;
+        font-weight: normal;
+        padding-bottom: 0.3em;
+    }
+
+    .fourth-section .first{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        margin: 3em 0;
+    }
+
+    .fourth-section .first p{
+        text-align: left;
+        width: 28em;
+    }
+        
+
+    .fourth-section .orange{
+        background-color: rgb(255, 124, 76);
+        margin: 3em 0;
+    }
+
+    .fourth-section .orange a{
+        color: white;
+        background-color: black;
+        border: 1px solid black;
+        border-radius: 6px;
+        padding: 1em 1.5em;
+        text-decoration: none;
+    }
+
+    .fourth-section .black{
+        color: white;
+        background-color: black;
+        margin: 3em 0;
+    }
+
+    .fourth-section .black a{
+        color: black;
+        background-color: white;
+        border: 1px solid white;
+        border-radius: 6px;
+        padding: 1em 1.5em;
+        text-decoration: none;
+    }
+
+    .fourth-section h2{
+        padding-top: 1.5em;
+        padding-bottom: 0.5em;
+    }
+
+    .fourth-section div p{
+        padding-bottom: 0.75em;
+    }
+
+    .fourth-section div h3{
+        padding-bottom: 3.5em;
+    }
+    .site-footer{
+        background-color: rgb(217, 217, 217);
+    }
+
+
+    .site-footer nav ul{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        padding: 3em 0;
+    }
+
+    .site-footer nav ul li{
+        display: inline-block;
+    }
+
+    .site-footer nav ul li svg{
+        width: 1.5em;
+        height: 1.5em;
+        
+    }
+
+    .fourth-section .number{
+        font-weight: bold;
+    }

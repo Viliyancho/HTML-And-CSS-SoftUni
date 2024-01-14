@@ -1,0 +1,16 @@
+article{
+    width: 65%;
+    padding-left: 15px;
+    display: inline-block;
+}
+
+img{
+    width: 50%;
+    height: auto;
+}
+
+aside{
+    display: inline-block;
+    width: 30%;
+    vertical-align: top;
+}

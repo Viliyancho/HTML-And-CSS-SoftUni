@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    }
+    
+    *, *:before, *:after{
+    box-sizing:inherit;
+    }
+    
+    html{
+    box-sizing:border-box;
+    font: 12px/1.5 Inter,sans-serif;
+    }
+
+    body{
+        background: url(images/background.jpg);
+        background-size: 100% auto;
+        background-repeat: no-repeat;
+    }
+
+    .card-list{
+        display: flex;
+        flex-direction: row;
+        gap: 1.5em;
+        padding: 3.5em 7em;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .first-cards{
+        display: flex;
+        flex-direction: column;
+        gap: 1.5em;
+    }
+
+    div img{
+        display: block;
+        width: 15em;
+        height: auto;
+        aspect-ratio: 1;
+    }
+
+    .card1, .card2{
+        background-color: white;
+        color: black;
+    }
+
+    .content{
+        flex: 1 0 65%;
+    }
+
+    .card1 img{
+        flex: 1 0 20%;
+    }
+
+    .image-container{
+        width: 35%;
+    }
+
+    .card1{
+        display: flex;
+        flex-direction: row;
+        height: 26.5em;
+        width: 70em;
+    }
+
+    .card2{
+        height: 54.5em;
+        width: 31em;
+    }
+
+    .author{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .symbol1{
+        font-size: 150px;
+        font-weight: bold;
+        margin-top: auto;
+        height: 130px;
+    }
+    .symbol2{
+        font-size: 12em;
+        font-weight: bold;
+        height: 140px;
+    }
+
+    .desc{
+        color: rgb(89,89,89);
+        font-size: 16px;
+        padding-bottom: 2em;
+    }
+
+    .content{
+        padding-left: 4em;
+    }
+
+    .name{
+        font-size: 1.5em;
+    }
+    .content2{
+        padding-left: 2.5em;
+    }
+
+    img{
+        border: 1px solid white;
+        border-radius: 50%;
+        aspect-ratio: 1;
+    }
+
+    .card1 img{
+        margin-top: 6em;
+        margin-left: 3.5em;
+        align-items: center;
+    }
+
+    .card2 img{
+        display: block;
+        width: 8em;
+        height: auto;
+        aspect-ratio: 1;
+    }
+
+    .card2 .desc{
+        padding-bottom: 8em;
+    }
+
+    .custom-hr{
+        width: 90%;
+        height: 1px;
+        background-color: rgb(217, 217, 217);
+        margin: 0 auto;
+    }
+
+    .author{
+        padding: 1em 1.25em;
+    }
+
+    .author span{
+        padding: 2.25em 0 0 1.75em;
+    }
+
+    .man{
+        filter: grayscale(100%);
+    }

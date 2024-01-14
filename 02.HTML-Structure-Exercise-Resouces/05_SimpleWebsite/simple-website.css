@@ -1,0 +1,36 @@
+header ul li{
+    font-size: 24px;
+    line-height: 40px;
+    height: 40px;
+    padding: 20px;
+    display: inline-block;
+}
+
+#mainted{
+    background-color: #444;
+    Padding: 10px;
+    text-align: center;
+    color: #fff;
+}
+
+header h1{
+    font-size: 28px;
+}
+
+header p{
+    font-style: italic;
+}
+
+p:not(header p, footer p){
+    font-size: 24px;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    background: #CCCCCC;
+}
+
+section{
+    margin-left: 20px;
+}

@@ -1,0 +1,146 @@
+*{
+    padding: 0;
+    margin: 0;
+    }
+    
+    *, *:before, *:after{
+    box-sizing:inherit;
+    }
+    
+    html{
+    box-sizing:border-box;
+    }
+    
+body{
+    background: url(image/fitness-main.jpg);
+    background-size: 100% auto;
+    background-position: center -12em;
+    background-repeat: no-repeat;
+}
+
+
+
+.site-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgba(208, 25, 25, 1);
+    color: white;
+    padding: 1em;
+}
+
+.site-header svg{
+    fill: white;
+}
+
+section.top-left,
+section.top-middle{
+    display: flex;
+    flex-direction: row;
+    gap: 0.2em;
+
+    
+}
+
+
+section.top-right ul li{
+        display: inline-block;
+        padding: 0 3px;
+}
+
+.first-section{
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.first-section nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+.first-section nav ul{
+    gap: 1.5em;
+}
+
+.first-section nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.first-section nav ul li {
+display: inline-block;
+padding: 1em 1.5em;
+}
+
+.first-section h1{
+    letter-spacing: 2px;
+    font-size: 3em;
+}
+
+.first-section p{
+    width: 72.5%;
+    margin: 0 auto;
+}
+.first-section .first-content h1{
+    padding-top: 2em;
+}
+
+.first-content{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    text-align: center;
+    gap: 1em;
+}
+
+.button-first{
+    display: inline-block;
+    max-width: 9em;
+    padding: 0.7em 0.5em;
+    margin: 0 auto;
+    text-decoration: none;
+    color: white;
+    background-color: rgba(208, 25, 25, 1);
+    border: 1px solid rgba(208, 25, 25, 1);
+    border-radius: 5px;
+}
+
+
+.second-section{
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.second-section h2{
+    text-align: center;
+}
+
+.second-section h2:after{
+    display: block;
+    content: '';
+    width: 2em;
+    border: 1px solid rgba(208, 25, 25, 1);
+    border-radius: 10px;
+    margin: 0 auto;
+}
+
+.second-section-ul{
+    display: flex;
+    flex-direction: row;
+}
+
+.second-section-ul li{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5em;
+}
+
+.second-section-ul li img{
+    width: 1.5em;
+    height: auto;
+}
+
+.second-section-ul li .title{
+    color: rgba(208, 25, 25, 1);
+}

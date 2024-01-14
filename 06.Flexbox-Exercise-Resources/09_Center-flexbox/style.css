@@ -1,0 +1,22 @@
+/*The body background color must be rgb(238, 238, 238)
+• The body display property must be flex
+• The content must be placed into div with class card (div.card)
+o The div background color must be rgb(255, 255, 255)
+*/
+
+body{
+    background-color: rgb(238, 238, 238);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+div{
+    background-color: rgb(255, 255, 255);
+}
+
+.card{
+    border: 1px solid black;
+    box-shadow: 0 0 4px rgba(0,0,0,0.3);
+}

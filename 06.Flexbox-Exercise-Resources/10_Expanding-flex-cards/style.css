@@ -1,0 +1,32 @@
+/*Body background color must be rgb(238, 238, 238)
+• The body display property must be flex
+o Align the items in center
+• The entire page content must be inside section with class named container (section.container)
+• The container display property must be flex
+*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(238, 238, 238);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.container{
+    display: flex;
+    gap: 2em;
+}
+
+.container img{
+    width: 5em;
+    flex: 0 0 5em;
+    overflow: hidden;
+    display: flex;
+    border-radius: 0.5em;
+}
